@@ -1,30 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliography</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         background-color: #f0f0f0;
-        margin: 0;
-      }
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        background-color: #fff;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
       h1 {
         text-align: center;
         color: #333;
-        margin: 0;
-      }
-      .logo {
-        height: 50px;
-        margin-right: 10px;
       }
       .reference {
         padding: 10px;
@@ -43,22 +28,35 @@
         line-height: 1.5;
         color: #333;
       }
+      /* Добавленные стили */
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 600px;
+      }
+      img {
+        max-width: 150px;
+        margin-left: auto;
+      }
     </style>
   </head>
   <body>
-    <header>
-      <img class="logo" src="https://itmo.ru/file/pages/213/logo_osnovnoy_russkiy_chernyy.jpg" alt="ITMO University logo">
+    <div class="container">
+      <img src="https://itmo.ru/file/pages/213/logo_osnovnoy_russkiy_chernyy.jpg" alt="ITMO Logo">
       <h1>Bibliography</h1>
-    </header>
-    <div class="reference">
-      <p>1. Review of Artificial Intelligence Adversarial Attack and Defense Technologies // www.mdpi.com: site. – URL: https://www.mdpi.com/2076-3417/9/5/909 (date of application: 03/23/2023)</p>
-    </div>
-    <div class="reference">
-      <p>2. Adversarial Attacks and Defenses in Images, Graphs and Text: A Review // link.springer.com: site. – URL: https://link.springer.com/article/10.1007/s11633-019-1211-x (date of application: 03/23/2023)</p>
-    </div>
-    <div class="reference">
-      <p>3. Complexity at Mesoscales: A Common Challenge in Developing Artificial Intelligence // www.sciencedirect.com: site. – URL: https://www.sciencedirect.com/science/article/pii/S2095809919308161 
-      (date of application: 03/23/2023)</p>
+      <div class="reference">
+        <p>1. Review of Artificial Intelligence Adversarial Attack and Defense Technologies // www.mdpi.com: site. – URL: https://www.mdpi.com/2076-3417/9/5/909 (date of application: 03/23/2023)</p>
+      </div>
+      <div class="reference">
+        <p>2. Adversarial Attacks and Defenses in Images, Graphs and Text: A Review // link.springer.com: site. – URL: https://link.springer.com/article/10.1007/s11633-019-1211-x (date of application: 03/23/2023)</p>
+      </div>
+      <div class="reference">
+        <p>3. Complexity at Mesoscales: A Common Challenge in Developing Artificial Intelligence // www.sciencedirect.com: site. – URL: https://www.sciencedirect.com/science/article/pii/S2095809919308161 
+        (date of application: 03/23/2023)</p>
+      </div>
     </div>
   </body>
 </html>
